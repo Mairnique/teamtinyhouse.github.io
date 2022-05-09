@@ -4001,7 +4001,7 @@
   text-transform: capitalize;
 }
 .sub-teams-text76 {
-  text-transform: lowercase;
+  text-transform: none;
 }
 .sub-teams-separator {
   flex: 0 0 auto;
