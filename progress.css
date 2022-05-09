@@ -509,7 +509,7 @@
     margin-top: 2px;
   }
   .progress-banner {
-    padding-top: var(--dl-space-space-twounits);
+    padding-top: 100px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
