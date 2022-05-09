@@ -4332,11 +4332,15 @@
   .sub-teams-nav2 {
     align-items: center;
   }
+  .sub-teams-image01 {
+		visibility: hidden;
+	}
   .sub-teams-hero {
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+    min-height: 50vmin;
   }
   .sub-teams-container2 {
     width: 100%;
