@@ -1165,6 +1165,7 @@
     justify-content: center;
   }
   .home-hero {
+    min-height: 100vh;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
