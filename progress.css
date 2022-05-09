@@ -505,7 +505,8 @@
   .progress-image {
     width: 75px;
     height: 75px;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
   }
   .progress-banner {
     padding-top: var(--dl-space-space-twounits);
