@@ -502,6 +502,11 @@
   .progress-max-width {
     flex-direction: column;
   }
+  .progress-image {
+    width: 75px;
+    height: 75px;
+    margin-bottom: -5px;
+  }
   .progress-banner {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
