@@ -644,7 +644,7 @@
   display: flex; 
   align-items: center;
   justify-content: flex-start;
-	margin-left: 80px;
+  margin-left: 80px;
   text-decoration: none;
 }
 .home-icon04 {
@@ -1203,6 +1203,9 @@
   .home-container04 {
     height: 73%;
   }
+  .home-container11 {
+    margin-left: 0px;
+  } 
   .home-text17 {
     width: 100%;
     font-size: 14px;
