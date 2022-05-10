@@ -120,6 +120,7 @@
   max-width: var(--dl-size-size-maxwidth);
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
 }
 .progress-info {
   flex: 1;
@@ -227,6 +228,8 @@
   max-width: var(--dl-size-size-maxwidth);
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
+  flex-direction: row-reverse;
 }
 .progress-container4 {
   flex: 1;
@@ -396,10 +399,10 @@
 }
 @media(max-width: 991px) {
   .progress-image1 {
-    width: 50%;
+    width: 50vw;
   }
   .progress-image2 {
-    width: 50%;
+    width: 50vw;
   }
 }
 @media(max-width: 767px) {
