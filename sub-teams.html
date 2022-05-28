@@ -371,32 +371,6 @@
                 <span class="sub-teams-first-name09">Shachi</span>
                 <span class="sub-teams-last-name09">Mahajan</span>
               </div>
-              <div class="sub-teams-speaker-card10">
-                <div class="sub-teams-image-container10">
-                  <img
-                    alt="image"
-                    src="images/Christal.jpeg"
-                    class="sub-teams-image12"
-                  />
-                  <div class="sub-teams-read-more-container10">
-                    <span class="sub-teams-hint10">
-                      <span>
-                        My name is Christal Wang and I&apos;m excited to be a
-                        part of team tiny house! I&apos;ll be a senior next
-                        fall, and I joined this team because I&apos;ve always
-                        been passionate about the environment and
-                        sustainability, and I want to do all I can to help
-                        protect it. Outside of school, I enjoy baking and taking
-                        long walks.
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                  </div>
-                </div>
-                <span class="sub-teams-first-name10">Christal</span>
-                <span class="sub-teams-last-name10">Wang</span>
-              </div>
               <div class="sub-teams-speaker-card11">
                 <div class="sub-teams-image-container11">
                   <img
@@ -420,32 +394,6 @@
                 </div>
                 <span class="sub-teams-first-name11">Tanvi</span>
                 <span class="sub-teams-last-name11">Bhave</span>
-              </div>
-              <div class="sub-teams-speaker-card12">
-                <div class="sub-teams-image-container12">
-                  <img
-                    alt="image"
-                    src="images/default.jpg"
-                    class="sub-teams-image14"
-                  />
-                  <div class="sub-teams-read-more-container12">
-                    <span class="sub-teams-hint12">
-                      <span>
-                        Dhruv Kalsi, 11th grade next year, I want to join this
-                        because I think it is a very cool and unique project. I
-                        also think the environment is important and I think this
-                        project could expand into something huge that could
-                        really benefit a lot of people. Interest hobbies: cars,
-                        F1, football, biking, engines, building stuff, playing
-                        sports, and calling/hanging out with people!
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                  </div>
-                </div>
-                <span class="sub-teams-first-name12">Dhruv</span>
-                <span class="sub-teams-last-name12">Kalsi</span>
               </div>
               <div class="sub-teams-speaker-card13">
                 <div class="sub-teams-image-container13">
@@ -632,42 +580,7 @@
                 <span class="sub-teams-first-name20">Emi</span>
                 <span class="sub-teams-last-name20">Zhang</span>
               </div>
-              <div class="sub-teams-speaker-card21">
-                <div class="sub-teams-image-container21">
-                  <img
-                    alt="image"
-                    src="images/default.jpg"
-                    class="sub-teams-image23"
-                  />
-                  <div class="sub-teams-read-more-container21">
-                    <span class="sub-teams-hint21">.</span>
-                  </div>
-                </div>
-                <span class="sub-teams-first-name21">Dhatri</span>
-                <span class="sub-teams-last-name21">PARAKAL</span>
-              </div>
-              <div class="sub-teams-speaker-card22">
-                <div class="sub-teams-image-container22">
-                  <img
-                    alt="image"
-                    src="images/Stephanie.png"
-                    class="sub-teams-image24"
-                  />
-                  <div class="sub-teams-read-more-container22">
-                    <span class="sub-teams-hint22">
-                      <span>
-                        My name is Stephanie Song. Next fall, I will be a Junior
-                        at TJHSST. I joined Team Tiny House because I like
-                        building things and tiny houses seem cool.
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                  </div>
-                </div>
-                <span class="sub-teams-first-name22">Stephanie</span>
-                <span class="sub-teams-last-name22">SOng</span>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -1172,31 +1085,6 @@
                 <span class="sub-teams-first-name43">Naisha</span>
                 <span class="sub-teams-last-name43">Patel</span>
               </div>
-              <div class="sub-teams-speaker-card44">
-                <div class="sub-teams-image-container44">
-                  <img
-                    alt="image"
-                    src="images/Dylan H.JPG"
-                    class="sub-teams-image46"
-                  />
-                  <div class="sub-teams-read-more-container44">
-                    <span class="sub-teams-hint44">
-                      <span>
-                        My name is Dylan Han and I joined because I thought it
-                        would be a cool opportunity to enhance my technology
-                        skills. Next year I’ll be a junior, so I want to try new
-                        things before the flood arrives. Finally, I like coding
-                        and hands-on tech projects, so I’m sure this’ll be the
-                        perfect event!
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                  </div>
-                </div>
-                <span class="sub-teams-first-name44">Dylan</span>
-                <span class="sub-teams-last-name44">Han</span>
-              </div>
               <div class="sub-teams-speaker-card45">
                 <div class="sub-teams-image-container45">
                   <img
@@ -1293,94 +1181,6 @@
           </div>
         </footer>
       </div>
-    </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-    <script>
-      window.onload = () => {
-        const runAllScripts = () => {
-          initializeAllSliders();
-        };
-
-        const listenForUrlChanges = () => {
-          let url = location.href;
-          document.body.addEventListener(
-            "click",
-            () => {
-              requestAnimationFrame(() => {
-                if (url !== location.href) {
-                  runAllScripts();
-                  url = location.href;
-                }
-              });
-            },
-            true
-          );
-        };
-
-        const initializeAllSliders = () => {
-          const allSliders = document.querySelectorAll('[data-type="slider"]');
-          allSliders.forEach((slider) => {
-            initializeSlider(slider);
-          });
-        };
-
-        const initializeSlider = (slider) => {
-          const slides = slider.querySelectorAll('[data-type="slide"]');
-          const middle = Math.ceil(slides.length / 2);
-          let currentSlide = middle;
-
-          const nextSlideBtns = document.querySelectorAll(
-            '[data-action="nextSlide"]'
-          );
-          const previousSlideBtns = document.querySelectorAll(
-            '[data-action="previousSlide"]'
-          );
-
-          const changeSlide = (slideIndex, action) => {
-            currentSlide = slideIndex;
-
-            switch (action) {
-              case "next":
-                slideIndex === slides.length
-                  ? (currentSlide = 1)
-                  : currentSlide++;
-                break;
-              case "previous":
-                slideIndex === 1
-                  ? (currentSlide = slides.length)
-                  : currentSlide--;
-            }
-
-            const slide = slides[0];
-            if (!slide) {
-              console.error("No slides present");
-              return;
-            }
-            const style = window.getComputedStyle(slide);
-            slideWidth =
-              parseInt(style.width) +
-              parseInt(style.marginLeft) +
-              parseInt(style.marginRight);
-            const transformValue = -slideWidth * (currentSlide - middle);
-
-            slider.style.transform = `translateX(${transformValue}px)`;
-          };
-
-          previousSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "previous")
-            );
-          });
-
-          nextSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "next")
-            );
-          });
-        };
-
-        runAllScripts();
-      };
-    </script>
+    </div>    
   </body>
 </html>
